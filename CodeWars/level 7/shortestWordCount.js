@@ -19,3 +19,9 @@ console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
 function findShort(s){
   return Math.min.apply(null, s.split(' ').map(w => w.length));
 }
+
+function findShort(s) {
+  return s.split(' ').reduce((min, word) => Math.min(min, word.length), Infinity);
+}
+
+*/

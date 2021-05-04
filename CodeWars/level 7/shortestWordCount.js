@@ -24,4 +24,11 @@ function findShort(s) {
   return s.split(' ').reduce((min, word) => Math.min(min, word.length), Infinity);
 }
 
+const findShort = (s) => s
+  .split(' ')
+  .sort((a, b) => b.length - a.length)
+  .pop()
+  .length;
+
+
 */

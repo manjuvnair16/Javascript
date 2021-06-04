@@ -31,4 +31,10 @@ function incrementString (strng) {
 
 }
 
+function incrementString(input) {
+  return input.replace(/([0-8]?)(9*)$/, function(s, d, ns) {
+      return +d + 1 + ns.replace(/9/g, '0');
+    });
+}
+
 */

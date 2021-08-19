@@ -1,2 +1,2 @@
 # Javascript
-Javascript codes from freecodecamp  and CodeWar exercises
+Javascript code from freecodecamp  and CodeWar exercises
